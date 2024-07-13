@@ -1,0 +1,33 @@
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    margin:auto; 
+}
+
+thead th{
+    
+    background-color: yellow;
+}
+
+th{
+    height: 50px;
+    background-color: aquamarine;
+    width: 100px;
+}
+
+td{
+    background-color:darkgray;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+}
+
+td:first-child{
+    background-color: aquamarine;
+    width: 100px;   
+}
+
+
+
